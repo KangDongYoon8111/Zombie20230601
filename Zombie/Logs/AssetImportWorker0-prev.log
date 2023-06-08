@@ -15,7 +15,7 @@ D:/Unity/Zombie20230601/Zombie
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55713
+51625
 Successfully changed project path to: D:/Unity/Zombie20230601/Zombie
 D:/Unity/Zombie20230601/Zombie
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Unity/Zombie20230601/Zombie
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2316] Host "[IP] 192.168.0.77 [Port] 0 [Flags] 2 [Guid] 4173067285 [EditorId] 4173067285 [Version] 1048832 [Id] WindowsEditor(7,301-00) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3720] Host "[IP] 192.168.0.77 [Port] 0 [Flags] 2 [Guid] 1320854597 [EditorId] 1320854597 [Version] 1048832 [Id] WindowsEditor(7,301-00) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2316] Host "[IP] 192.168.0.77 [Port] 0 [Flags] 2 [Guid] 4173067285 [EditorId] 4173067285 [Version] 1048832 [Id] WindowsEditor(7,301-00) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3720] Host "[IP] 192.168.0.77 [Port] 0 [Flags] 2 [Guid] 1320854597 [EditorId] 1320854597 [Version] 1048832 [Id] WindowsEditor(7,301-00) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 109.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 110.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008764 seconds.
+Registered in 0.012816 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 302 ms
-Refreshing native plugins compatible for Editor in 114.15 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 315 ms
+Refreshing native plugins compatible for Editor in 108.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  1.098 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1069ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (855ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (872ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (639ms)
+			SetupLoadedEditorAssemblies (654ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (375ms)
+				InitializePlatformSupportModulesInManaged (387ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004473 seconds.
+Registered in 0.021989 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Zombie20230601\Zombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Zombie20230601\Zombie\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
+- Completed reload, in  1.267 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1244ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (983ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (324ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (438ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (1.4 MB). Loaded Objects now: 3861.
-Memory consumption went from 205.0 MB to 203.6 MB.
-Total: 3.177700 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.230700 ms MarkObjects: 2.367000 ms  DeleteObjects: 0.274900 ms)
+Memory consumption went from 205.1 MB to 203.7 MB.
+Total: 4.866900 ms (FindLiveObjects: 0.424800 ms CreateObjectMapping: 0.263700 ms MarkObjects: 3.796800 ms  DeleteObjects: 0.380500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,19 +167,247 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1826702.779077 seconds.
-  path: Assets/03.Models/Woman.fbx
-  artifactKey: Guid(98cdee121d6e440de9fb99a7c24fa0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Models/Woman.fbx using Guid(98cdee121d6e440de9fb99a7c24fa0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f867c270c04cef1f37185019ef59c0f') in 0.263998 seconds 
+  Time since last request: 13807.722988 seconds.
+  path: Assets/05.Animations/ShooterAnimator.controller
+  artifactKey: Guid(dc7f0d1308d0bd1499a8fee0eea23f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/ShooterAnimator.controller using Guid(dc7f0d1308d0bd1499a8fee0eea23f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031a6b3097009cc26da1f9cee91510ff') in 0.216746 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 387.093812 seconds.
-  path: Assets/03.Models/z.fbx
-  artifactKey: Guid(dd78407f761df4c40938d96cc1903ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Models/z.fbx using Guid(dd78407f761df4c40938d96cc1903ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49323191c5688ce5eccf67ca3b0e63d9') in 0.051680 seconds 
+  Time since last request: 61.105500 seconds.
+  path: Assets/05.Animations/Humanoid Run.anim
+  artifactKey: Guid(5e4ae6245765bc043bb0769f060ac73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Humanoid Run.anim using Guid(5e4ae6245765bc043bb0769f060ac73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55ae10b3c7d4d77b99479225746ee6f') in 0.026723 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.650956 seconds.
-  path: Assets/03.Models/Zombie.fbx
-  artifactKey: Guid(6bc76eedb6629574a83870562bc0c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03.Models/Zombie.fbx using Guid(6bc76eedb6629574a83870562bc0c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08515fc30ea1749359f8f16057c93dfc') in 0.036859 seconds 
+  Time since last request: 86.331027 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs/3rdPersonController.prefab
+  artifactKey: Guid(f9dee39d229a4bb4087224760ba2d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs/3rdPersonController.prefab using Guid(f9dee39d229a4bb4087224760ba2d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6303eb509153ffdf8ad774d3c3792cd9') in 0.575136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.865569 seconds.
+  path: Assets/03.Models/Coin.fbx
+  artifactKey: Guid(06b984149946d44da919e9a66bcbe4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Coin.fbx using Guid(06b984149946d44da919e9a66bcbe4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7241c1e02916f0eba43b8128536eadba') in 0.048267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.249032 seconds.
+  path: Assets/03.Models/Level Art/cross.fbx
+  artifactKey: Guid(e8b7835b1b5e4cc4eba40c923085a23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/cross.fbx using Guid(e8b7835b1b5e4cc4eba40c923085a23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661c682bf0ff34abbe647e6fbd47d4b1') in 0.017501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049362 seconds.
+  path: Assets/03.Models/Level Art/debris.fbx
+  artifactKey: Guid(a1264b7d795ad364ea9d20ac3d27bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/debris.fbx using Guid(a1264b7d795ad364ea9d20ac3d27bfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd720cbf07406d6c2bd414904d84bfbfe') in 0.018051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321129 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/Environment_2D.prefab
+  artifactKey: Guid(50d4e9899bac3164ea7e01493f0b5124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/Environment_2D.prefab using Guid(50d4e9899bac3164ea7e01493f0b5124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ef1c439f08cf8d5bc4e2c0bf52be98') in 0.260196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113866 seconds.
+  path: Assets/03.Models/Level Art/fenceIronBorder.fbx
+  artifactKey: Guid(a63b49226ab815941ab7641e40d48ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/fenceIronBorder.fbx using Guid(a63b49226ab815941ab7641e40d48ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e56a1d34374072a38474e645bbf0c51') in 0.101761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/03.Models/Level Art/gravestoneBevel.fbx
+  artifactKey: Guid(a7756b141727afb46994a3d0f3c98b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/gravestoneBevel.fbx using Guid(a7756b141727afb46994a3d0f3c98b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a95417f4fc0efe07c66883a4e5dabf3') in 0.017341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/03.Models/Level Art/grave.fbx
+  artifactKey: Guid(6a9f3cc0f5b86c24196a62d8073b40c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/grave.fbx using Guid(6a9f3cc0f5b86c24196a62d8073b40c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583c33e210f6405fa2849991163eb191') in 0.016915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199036 seconds.
+  path: Assets/03.Models/Level Art/gravestoneBroken.fbx
+  artifactKey: Guid(7894177ae03f8de49ba5c46fd331b9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/gravestoneBroken.fbx using Guid(7894177ae03f8de49ba5c46fd331b9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c1f1d44f64a639c18ef49943c616e') in 0.016216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03.Models/Level Art/gravestoneCrossLarge.fbx
+  artifactKey: Guid(36bd0a8f119004146bec6ffe13af2bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/gravestoneCrossLarge.fbx using Guid(36bd0a8f119004146bec6ffe13af2bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e26c5e717cf7c225b970689f2fca418') in 0.016478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020913 seconds.
+  path: Assets/03.Models/Level Art/gravestoneDecorative.fbx
+  artifactKey: Guid(e1ccc340231b1e945b3cbeb2ada3a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/gravestoneDecorative.fbx using Guid(e1ccc340231b1e945b3cbeb2ada3a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5afa82db66e3d6e76c10183c4ee3769') in 0.017885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/03.Models/Level Art/gravestoneRoof.fbx
+  artifactKey: Guid(3eb52f64571dcc6458da9f516a2486e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/gravestoneRoof.fbx using Guid(3eb52f64571dcc6458da9f516a2486e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a9d2e2217fe10b3d70aa50c742b59b') in 0.017169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.242168 seconds.
+  path: Assets/03.Models/Level Art/gravestoneRound.fbx
+  artifactKey: Guid(2f56a0cd28c3a0e479fea419de40f74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/gravestoneRound.fbx using Guid(2f56a0cd28c3a0e479fea419de40f74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e59f41c352c9a8ff403d0c8cfa56917') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024207 seconds.
+  path: Assets/03.Models/Heart.obj
+  artifactKey: Guid(07d0c18f46bf64565a33789d47146ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Heart.obj using Guid(07d0c18f46bf64565a33789d47146ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58480ee0bc43191827df8c97f0cf603b') in 0.021121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Jog.fbx
+  artifactKey: Guid(fdc39e3202ebc4d4a8a473fd95fcff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Jog.fbx using Guid(fdc39e3202ebc4d4a8a473fd95fcff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cfe181802c55f4df40e020cd36fa93') in 0.010895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.264294 seconds.
+  path: Assets/03.Models/Level Art/lanternCandle.fbx
+  artifactKey: Guid(43a4b849b8090ef4d8ffbfbb102923b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/lanternCandle.fbx using Guid(43a4b849b8090ef4d8ffbfbb102923b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f941066d0522a43d7a0c1fa7ab540f1') in 0.018343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/03.Models/Level Art/lanternGlass.fbx
+  artifactKey: Guid(3969d7ae47950ec44bfa01d1b097a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/lanternGlass.fbx using Guid(3969d7ae47950ec44bfa01d1b097a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5e3d330507ca99ccf911ab3b5367d7') in 0.017416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027740 seconds.
+  path: Assets/02.Prefabs/Level Art.prefab
+  artifactKey: Guid(49b04053ea2dc49ae8eae12418134ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02.Prefabs/Level Art.prefab using Guid(49b04053ea2dc49ae8eae12418134ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8593dc04d52d61a3fec220848c5c702e') in 0.363757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx
+  artifactKey: Guid(fb8b35ae430517a4989c461955168bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx using Guid(fb8b35ae430517a4989c461955168bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2485c76c24ddff303a59bea3ae3b425a') in 0.016562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx
+  artifactKey: Guid(b6e2207db377b584bb472dd15da85dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx using Guid(b6e2207db377b584bb472dd15da85dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b28ca0f5cc2ff9eb4a23714e340a82') in 0.019155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Models/Level Art/roadTile_014.fbx
+  artifactKey: Guid(ee3a89c63cf95fa4c92cd786d0d4385a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/roadTile_014.fbx using Guid(ee3a89c63cf95fa4c92cd786d0d4385a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a83d33d14c8d4817ec14afacfc9c1d') in 0.020546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229261 seconds.
+  path: Assets/03.Models/Level Art/roadTile_023.fbx
+  artifactKey: Guid(f10179b7795770343960297257ddeb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/roadTile_023.fbx using Guid(f10179b7795770343960297257ddeb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3781e7b591aab5ba99334d37efa3ef') in 0.021233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Models/Level Art/roadTile_252.fbx
+  artifactKey: Guid(512bef4fd6304ef4b85c12d0fd637dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/roadTile_252.fbx using Guid(512bef4fd6304ef4b85c12d0fd637dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4890123d2556afae2b3d2fe14949d') in 0.021754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001200 seconds.
+  path: Assets/03.Models/ShellCasing.FBX
+  artifactKey: Guid(39af8eb310699cb4dac88a1ce9577c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/ShellCasing.FBX using Guid(39af8eb310699cb4dac88a1ce9577c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10b5723edb2fbeb3645d4ec6770e510') in 0.018455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016992 seconds.
+  path: Assets/03.Models/Level Art/shovel.fbx
+  artifactKey: Guid(87f0eb128dd40214fa3a67a0861174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/shovel.fbx using Guid(87f0eb128dd40214fa3a67a0861174a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028e757eb530e062ac923958edc0edbf') in 0.016411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183839 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Sprint.fbx
+  artifactKey: Guid(7fa1f9e8c2e4188478cbd5a152ce790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Sprint.fbx using Guid(7fa1f9e8c2e4188478cbd5a152ce790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066dd036888d4f2399c28bb48c1ac8ca') in 0.009904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020039 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/Stage1.prefab
+  artifactKey: Guid(b6a68029251c6c54ea270e3724819861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Prefabs/Stage1.prefab using Guid(b6a68029251c6c54ea270e3724819861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b732c82981eba22ac8b180c96817fabc') in 0.014142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/03.Models/Level Art/trunk.fbx
+  artifactKey: Guid(f6684beaf24bbe241ac4217c676f1330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/trunk.fbx using Guid(f6684beaf24bbe241ac4217c676f1330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5f0e10cfbd5eac31232d4aa7c192fd') in 0.016315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002138 seconds.
+  path: Assets/03.Models/Level Art/urn.fbx
+  artifactKey: Guid(962587daea57bab42afc7a02477c5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/Level Art/urn.fbx using Guid(962587daea57bab42afc7a02477c5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158bc186530821312ff0fd1ea33a0502') in 0.023797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Walk.fbx
+  artifactKey: Guid(13caa80bbe9b34403bda844d1694d394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Walk.fbx using Guid(13caa80bbe9b34403bda844d1694d394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d6b8775e14940fe99e24e0b71c9c26') in 0.010472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205982 seconds.
+  path: Assets/03.Models/캐릭터기본바디_예제모델링.max
+  artifactKey: Guid(3488ac73c882a864db5a680efaf5d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Models/캐릭터기본바디_예제모델링.max using Guid(3488ac73c882a864db5a680efaf5d6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc1c73aac20a8dad737fb164abdc7c7') in 0.108363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.596774 seconds.
+  path: Assets/05.Animations/Humanoid Idle.anim
+  artifactKey: Guid(357382166fc6bfb41b6c0367cd4df8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Humanoid Idle.anim using Guid(357382166fc6bfb41b6c0367cd4df8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cdb523f3ed814aae4da3f37526200b') in 0.016093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.858401 seconds.
+  path: Assets/05.Animations/PlayerAnimator.controller
+  artifactKey: Guid(98a89107d939675418ab167b359e5980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/PlayerAnimator.controller using Guid(98a89107d939675418ab167b359e5980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54564239a6d2c6ea783f2c544a84914') in 0.006551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 594.264568 seconds.
+  path: Assets/05.Animations/Zombie Run.anim
+  artifactKey: Guid(6e30ce1e1db8ebb49b29ef0440c4bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Zombie Run.anim using Guid(6e30ce1e1db8ebb49b29ef0440c4bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333980a96c783238144267d808b964e7') in 0.017496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187731 seconds.
+  path: Assets/05.Animations/Zombie Idle.anim
+  artifactKey: Guid(9c9ac29e30e4d42c2993cc5472073146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Zombie Idle.anim using Guid(9c9ac29e30e4d42c2993cc5472073146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85841e21e655f51bbc17a7aea55a778b') in 0.072007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.235591 seconds.
+  path: Assets/05.Animations/Reload.anim
+  artifactKey: Guid(da652e5dee81e1e4fb45856c799c0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Reload.anim using Guid(da652e5dee81e1e4fb45856c799c0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ad16b7ed5eb89c085c129237dbc606') in 0.020640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789826 seconds.
+  path: Assets/05.Animations/Aim Idle.anim
+  artifactKey: Guid(e5cfc0338b75c5f4c94f142b2aca2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Aim Idle.anim using Guid(e5cfc0338b75c5f4c94f142b2aca2d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ad4d85e01ee46b4daea05d5de95419') in 0.046777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.697672 seconds.
+  path: Assets/05.Animations/Humanoid Walk.anim
+  artifactKey: Guid(763c5abd9f23ce041a8b9a784d6f035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Humanoid Walk.anim using Guid(763c5abd9f23ce041a8b9a784d6f035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854e435d067039302d64485acad9ee48') in 0.039521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 421.155239 seconds.
+  path: Assets/05.Animations/Human Death.anim
+  artifactKey: Guid(85e9d7cbab6dbe74eb1b9b4ff8bf34d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Animations/Human Death.anim using Guid(85e9d7cbab6dbe74eb1b9b4ff8bf34d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e541e1dacfe9602bc60289a3e8be92de') in 0.040952 seconds 
