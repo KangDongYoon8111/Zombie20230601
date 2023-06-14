@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     // 앞뒤 움직임을 위한 입력축 이름
-    public string moveAxisName = "Vertical";
+    private const string moveAxisName = "Vertical";
     // 좌우 회전을 위한 입력축 이름
     public string rotateAxisName = "Horizontal";
     // 발사를 위한 입력 버튼 이름
