@@ -55,4 +55,22 @@ public class PlayerMovement : MonoBehaviour
             playerRigidbody.rotation * 
             Quaternion.Euler(0, turn, 0);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        //AmmoPack ammoPack = other.GetComponent<AmmoPack>();
+        //if(ammoPack != null)
+        //{
+        //    ammoPack.Use(this.gameObject);
+        //}
+
+        //HealthPack healthPack = other.GetComponent<HealthPack>();
+        //if(healthPack != null)
+        //{
+        //    healthPack.Use(this.gameObject);
+        //}
+
+        IItem item = other.GetComponent<IItem>();
+        if (item != null) item.Use(this.gameObject);
+    }
 }
