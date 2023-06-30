@@ -15,6 +15,8 @@ public class PlayerShooter : MonoBehaviour
     private PlayerInput playerInput; // 플레이어의 입력
     private Animator playerAnimator; // 애니메이터 컴포넌트
 
+    public Vector3 setPosition;
+
     void Start()
     {
         // 사용할 컴포넌트 가져오기
@@ -25,7 +27,7 @@ public class PlayerShooter : MonoBehaviour
     private void OnEnable()
     {
         // 슈터가 활성화될 때 총도 함께 활성화
-        gun.gameObject.SetActive(true);
+        //gun.gameObject.SetActive(true);
     }
 
     private void OnDisable()
@@ -72,7 +74,7 @@ public class PlayerShooter : MonoBehaviour
     private void OnAnimatorIK(int layerIndex)
     {
         // 총의 기준점 gunPivot을 3D 모델의 오른쪽 팔꿈치 위치로 이동
-        gunPivot.position = playerAnimator.GetIKHintPosition(AvatarIKHint.RightElbow);
+        gunPivot.position = setPosition+playerAnimator.GetIKHintPosition(AvatarIKHint.RightElbow);
 
         // IK를 사용하여 왼손의 위치와 회전을 총의 왼쪽 손잡이에 맞춤
         playerAnimator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1.0f);
