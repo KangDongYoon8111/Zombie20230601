@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    public enum WeaponType { Sword, Hand, Gun}
+    public enum WeaponType { Sword, Hand, Gun }
 
     public WeaponType weaponType { get; private set; }
 
@@ -22,11 +22,11 @@ public class PlayerWeapon : MonoBehaviour
 
     private void OnAnimatorIK(int layerIndex)
     {
-        // 총의 기준점 gunPivot을 3D 모델의 오른쪽 팔꿈치 위치로 이동
-        //weaponPivot.position = animator.GetIKHintPosition(AvatarIKHint.RightElbow);
-
         weaponPivot.position = animator.GetIKPosition(AvatarIKGoal.LeftHand);
         weaponPivot.rotation = animator.GetIKRotation(AvatarIKGoal.LeftHand);
+
+        // 총의 기준점 gunPivot을 3D 모델의 오른쪽 팔꿈치 위치로 이동
+        //weaponPivot.position = animator.GetIKHintPosition(AvatarIKHint.RightElbow);
 
         // IK를 사용하여 왼손의 위치와 회전을 총의 왼쪽 손잡이에 맞춤
         //animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1.0f);
@@ -35,7 +35,7 @@ public class PlayerWeapon : MonoBehaviour
         //animator.SetIKPosition(AvatarIKGoal.LeftHand, leftHandMount.position);
         //animator.SetIKRotation(AvatarIKGoal.LeftHand, leftHandMount.rotation);
 
-        //// IK를 사용하여 오른손의 위치와 회전을 총의 오른쪽 손잡이에 맞춤
+        // IK를 사용하여 오른손의 위치와 회전을 총의 오른쪽 손잡이에 맞춤
         //animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1.0f);
         //animator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1.0f);
 
