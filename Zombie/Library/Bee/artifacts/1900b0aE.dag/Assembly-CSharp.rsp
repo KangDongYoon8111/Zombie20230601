@@ -367,6 +367,7 @@
 "Assets/01.Scripts/Monstar.cs"
 "Assets/01.Scripts/Orc.cs"
 "Assets/01.Scripts/Player.cs"
+"Assets/01.Scripts/PlayerHealth.cs"
 "Assets/01.Scripts/PlayerInput.cs"
 "Assets/01.Scripts/PlayerMovement.cs"
 "Assets/01.Scripts/PlayerShooter.cs"
