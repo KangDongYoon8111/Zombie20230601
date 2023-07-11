@@ -6,7 +6,7 @@ using UnityEngine;
 public class LivingEntity : MonoBehaviour, IDamageable
 {
     public float startingHealth = 100f; // 시작체력
-    public float health { get; private set; } // 현재체력
+    public float health { get; protected set; } // 현재체력
     public bool dead { get; protected set; } // 사망 상태
     public event Action onDeath; // 사망 시 발동할 이벤트
 
